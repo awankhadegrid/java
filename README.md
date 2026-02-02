@@ -16,23 +16,25 @@ Go to the **Topics directory** to see **all my Java code**, categorized by indiv
 
 ## 📂 Project Structure (All Code)
 
-📦 Java-Repository
-┣ 📂 .gradle
-┣ 📂 Topics
-┃ ┣ 📂 Array
-┃ ┣ 📂 Arrays as parameters
-┃ ┣ 📂 Boolean type and operations (true and false)
-┃ ┣ 📂 Break and continue (Branching)
-┃ ┣ 📂 Calling methods
-┃ ┣ 📂 Command-line arguments
-┃ ┣ 📂 Comparing values (Relational operators)
-┃ ┣ 📂 Conditional statements
-┃ ┣ 📂 Declaring methods
-┃ ┣ 📂 Defining classes
-┃ ┣ 📂 Errors in programs
-┃ ┣ 📂 Floating-point types and operations
-┃ ┣ 📂 For loop
-┗ 📜 README.md
+Java-Repository
+├── .gradle
+├── Topics
+│ ├── Array
+│ ├── Arrays as parameters
+│ ├── Boolean type and operations (true and false)
+│ ├── Break and continue (Branching)
+│ ├── Calling methods
+│ ├── Command-line arguments
+│ ├── Comparing values (Relational operators)
+│ ├── Conditional statements
+│ ├── Declaring methods
+│ ├── Defining classes
+│ ├── Errors in programs
+│ ├── Floating-point types and operations
+│ └── For loop
+└── README.md
+
+
 
 
 ---
