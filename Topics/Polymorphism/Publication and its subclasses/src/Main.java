@@ -1,3 +1,5 @@
+import com.sun.source.tree.BreakTree;
+
 class Publication {
 
     private String title;
@@ -7,9 +9,15 @@ class Publication {
     }
 
     public final String getInfo() {
-        
+        if (getDetails().isEmpty()) {
+            return getType() + ": " + getTitle();
+        } else {
+            return getDetails();
+        }
     }
-
+    public String getTitle(){
+        return this.title;
+    }
     public String getType() {
         return "Publication";
     }
@@ -27,9 +35,17 @@ class Newspaper extends Publication {
     public Newspaper(String title, String source) {
         super(title);
         this.source = source;
+
+    }
+    @Override
+    public String getType() {
+        return "Newspaper";
+    }
+    @Override
+    public String getDetails() {
+        return getType()+" (source - "+source+"): "+getTitle();
     }
 
-    // write your code here
 
 }
 
@@ -42,7 +58,14 @@ class Article extends Publication {
         this.author = author;
     }
 
-    // write your code here
+    @Override
+    public String getType() {
+        return "Article";
+    }
+    @Override
+    public String getDetails() {
+        return getType()+" (author - "+author+"): "+getTitle();
+    }
 
 }
 
@@ -55,6 +78,13 @@ class Announcement extends Publication {
         this.daysToExpire = daysToExpire;
     }
 
-    // write your code here
+    @Override
+    public String getType() {
+        return "Announcement";
+    }
+    @Override
+    public String getDetails() {
+        return getType()+" (days to expire - "+daysToExpire+"): "+getTitle();
+    }
 
 }
