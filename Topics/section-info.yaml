@@ -1,0 +1,37 @@
+content:
+  - Floating-point types and operations
+  - Boolean type and operations. True and false
+  - Comparing values. Relational operators
+  - Conditional statement
+  - One-line condition with ternary operator
+  - For loop
+  - While and do-while loops
+  - Break and continue. Branching
+  - Multiple conditions  switch
+  - Switch expression
+  - Declaring methods
+  - Method  main
+  - Functional decomposition
+  - Calling methods
+  - Overloading
+  - Array
+  - Iterating over arrays
+  - Arrays as parameters
+  - Command-line arguments
+  - String
+  - Processing strings
+  - Errors in programs
+  - Multidimensional array
+  - Formatted output
+  - Defining classes
+  - Instance methods
+  - Grouping classes with packages
+  - Objects and their properties
+  - Initializing new instances. Constructor
+  - Multiple constructors
+  - Static members
+  - Getters and setters
+  - Inheritance
+  - Keyword  super
+  - Method overriding
+  - Polymorphism

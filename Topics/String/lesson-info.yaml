@@ -1,0 +1,9 @@
+content:
+  - String
+  - Finding string expressions
+  - Comparing strings ignoring whitespaces
+  - Fixing code to display a character from a string
+  - Extracting a character
+  - All robots speak Java
+  - Appending strings and ints
+  - Check burgs

@@ -1,0 +1,12 @@
+# IntelliJ / Hyperskill
+.idea/
+*.iml
+out/
+build/
+
+# OS files
+.DS_Store
+
+# Logs
+*.log
+
