@@ -3,6 +3,9 @@
 *.iml
 out/
 build/
+*.yaml
+*.html
+
 
 # OS files
 .DS_Store
